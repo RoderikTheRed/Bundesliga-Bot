@@ -61,4 +61,4 @@ class MyClient(discord.Client):
 				await message.channel.send("| " + str(dsatz[0]) + " | " + str(dsatz[1]) + " | " +  str(dsatz[2]) + " | " + str(dsatz[3]))
 			connection.close()
 client = MyClient()
-client.run("Nzk1NTQ1MDk5NDU0NTEzMjAz.X_K7HA.JqPALfkNf2J2UcgvgKye9GQHIzE")
+client.run("xxxxxx")
