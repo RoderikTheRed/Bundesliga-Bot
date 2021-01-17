@@ -18,9 +18,9 @@ class MyClient(discord.Client):
 			await message.channel.send("---------------------------------------------")
 			try:
 				connection = mysql.connector.connect(
-								host = "45.156.85.215",
+								host = "localhost",
 								user = "root",
-								password = "Herbert12",
+								password = "",
 								database = "test"
 								)
 				mycursor = connection.cursor()
